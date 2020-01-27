@@ -6,7 +6,7 @@ namespace ChallengesWithTestsMark8
     {
         public bool AreTwoNumbersTheSame(int num1, int num2)
         {
-            throw new NotImplementedException();
+            throw new NotImplementedException();            
         }
 
         public double Subtract(double minuend, double subtrahend)
