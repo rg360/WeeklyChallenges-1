@@ -28,6 +28,7 @@ namespace ChallengesWithTestsMark8
         public string TurnWordsIntoSentence(string[] words)
         {
             throw new NotImplementedException();
+
         }
 
         public double[] GetEveryFourthElement(List<double> elements)
