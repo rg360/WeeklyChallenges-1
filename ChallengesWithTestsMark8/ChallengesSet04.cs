@@ -7,30 +7,36 @@ namespace ChallengesWithTestsMark8
         public int AddEvenSubtractOdd(int[] numbers)
         {
             //throw new NotImplementedException();
-
-            int evenResult = 0;
-            int oddResult = 0;
-
-
-            foreach (int i in numbers)
-            
-                if (i % 2 == 0)
-                {
-                    evenResult += i;
-                }
-                else 
-                {
-                    oddResult += i;
-                }
-            
-            //foreach (int i in numbers)
-            //    if (i % 2 != 0)
-            //    {
-            //        oddResult -= i;
-            //    }
+            if (numbers == null)
+            {
+                return 0;
+            }
+            else
+            {
+                int evenResult = 0;
+                int oddResult = 0;
 
 
-            return evenResult - oddResult;
+                foreach (int i in numbers)
+
+                    if (i % 2 == 0)
+                    {
+                        evenResult += i;
+                    }
+                    else
+                    {
+                        oddResult += i;
+                    }
+
+                //foreach (int i in numbers)
+                //    if (i % 2 != 0)
+                //    {
+                //        oddResult -= i;
+                //    }
+
+
+                return evenResult - oddResult;
+            }
 
         }
 
@@ -78,32 +84,13 @@ namespace ChallengesWithTestsMark8
             }
             
             return smallNum;
-            //int smallNum = 0;
-            //int i = 0;
-            ////integer array declaration
-            //int[] arr = new int[5];
 
-            //Console.WriteLine("Enter array elements : ");
-            ////read array elements
-            //for (i = 0; i < arr.Length; i++)
-            //{
-            //    arr[i] = int.Parse(Console.ReadLine());
-            //}
-
-            //smallNum = arr[0];
-
-            //for (i = 1; i < arr.Length; i++)
-            //{
-
-            //    if (smallNum > arr[i])
-            //        smallNum = arr[i];
-            //}
-            //return smallNum;
         }
 
         public void ChangeBusinessNameTo_TrueCoders(Business biz)
         {
             throw new NotImplementedException();
+
 
 
         }
@@ -118,7 +105,7 @@ namespace ChallengesWithTestsMark8
 
             if (((side1 + side2) > side3) && ((side2 + side3) > side1) && ((side3 + side1) > side2))
             {
-                        return true;
+               return true;
 
             }
             else return false;

@@ -123,7 +123,7 @@ namespace ChallengesWithTestsMark8
             //throw new NotImplementedException();
 
 
-            //option 1
+            //option 1 <--- not working
             //for (int i = 2; i < 100; i++)
             //{
             //    result.Add(i);
@@ -139,7 +139,7 @@ namespace ChallengesWithTestsMark8
                 }
             return result;
 
-            //option 3
+            //option 3 <--- not working
             //int even = 0;
             //int odd = 0;
             //for (int i = 0; i < numbers.Length; i++)
@@ -183,6 +183,7 @@ namespace ChallengesWithTestsMark8
             int divisibleBy = 2;
             long countEr = 0;
 
+            //sol <-- not working
             //if (number % divisibleBy != 0)
             //{
             //    countEr++;
@@ -203,7 +204,7 @@ namespace ChallengesWithTestsMark8
 
             return number / 2;
 
-
+            //sol <--not working. could not accept LONG
             //long dividend = 0;
 
             //return dividend % 2;

@@ -17,7 +17,25 @@ namespace ChallengesWithTestsMark8
 
         public bool IsAscendingOrder(int[] numbers)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            if (numbers == null || numbers.Length == 0)
+            {
+                return false;
+            }
+            else
+            {
+
+                int xEnding = numbers.Length - 1;
+
+                if (xEnding < 1) return true;
+                {
+                    int aScend = numbers[0], i = 1;
+
+                    while (i <= xEnding && aScend <= (aScend = numbers[i])) i++;
+
+                    return i > xEnding;
+                }
+            }
         }
 
         public int SumElementsThatFollowAnEven(int[] numbers)

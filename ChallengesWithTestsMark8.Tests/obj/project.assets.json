@@ -5921,11 +5921,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/rg/Desktop/Projects/Repository/WeeklyChallenges/ChallengesWithTestsMark8.Tests/ChallengesWithTestsMark8.Tests.csproj",
+      "projectUniqueName": "/Users/rg/Desktop/Projects/Repository/WeeklyChallenges-1/ChallengesWithTestsMark8.Tests/ChallengesWithTestsMark8.Tests.csproj",
       "projectName": "ChallengesWithTestsMark8.Tests",
-      "projectPath": "/Users/rg/Desktop/Projects/Repository/WeeklyChallenges/ChallengesWithTestsMark8.Tests/ChallengesWithTestsMark8.Tests.csproj",
+      "projectPath": "/Users/rg/Desktop/Projects/Repository/WeeklyChallenges-1/ChallengesWithTestsMark8.Tests/ChallengesWithTestsMark8.Tests.csproj",
       "packagesPath": "/Users/rg/.nuget/packages/",
-      "outputPath": "/Users/rg/Desktop/Projects/Repository/WeeklyChallenges/ChallengesWithTestsMark8.Tests/obj/",
+      "outputPath": "/Users/rg/Desktop/Projects/Repository/WeeklyChallenges-1/ChallengesWithTestsMark8.Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/rg/.config/NuGet/NuGet.Config"
@@ -5939,8 +5939,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "/Users/rg/Desktop/Projects/Repository/WeeklyChallenges/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj": {
-              "projectPath": "/Users/rg/Desktop/Projects/Repository/WeeklyChallenges/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj"
+            "/Users/rg/Desktop/Projects/Repository/WeeklyChallenges-1/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj": {
+              "projectPath": "/Users/rg/Desktop/Projects/Repository/WeeklyChallenges-1/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj"
             }
           }
         }
@@ -5983,7 +5983,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
       }
     }
   }

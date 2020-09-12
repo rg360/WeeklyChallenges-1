@@ -25,17 +25,25 @@ namespace ChallengesWithTestsMark8
         public bool IsSumOfOddsOdd(IEnumerable<int> numbers)
         {
             //throw new NotImplementedException();
-            int result = 0;
-            
 
-            foreach (int i in numbers)
-                if (i % 2 != 0)
-                {
-                    result += i;
-                }
+            if (numbers == null)
+            {
+                return false;
+            }
+            else
+            {
+                int result = 0;
 
-          
-            return result % 2 != 0;
+
+                foreach (int i in numbers)
+                    if (i % 2 != 0)
+                    {
+                        result += i;
+                    }
+
+
+                return result % 2 != 0;
+            }
         }
 
         public bool PasswordContainsUpperLowerAndNumber(string password)
@@ -106,6 +114,8 @@ namespace ChallengesWithTestsMark8
 
         public int[] GetOddsBelow100()
         {
+
+            //not started!!! 
             throw new NotImplementedException();
 
 
