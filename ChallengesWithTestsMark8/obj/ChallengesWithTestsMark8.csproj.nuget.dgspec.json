@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/rg/Desktop/Projects/Repository/WeeklyChallenges-1/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj": {}
+    "/Users/rg/Projects/repos/WeeklyChallenges-1/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj": {}
   },
   "projects": {
-    "/Users/rg/Desktop/Projects/Repository/WeeklyChallenges-1/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj": {
+    "/Users/rg/Projects/repos/WeeklyChallenges-1/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/rg/Desktop/Projects/Repository/WeeklyChallenges-1/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj",
+        "projectUniqueName": "/Users/rg/Projects/repos/WeeklyChallenges-1/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj",
         "projectName": "ChallengesWithTestsMark8",
-        "projectPath": "/Users/rg/Desktop/Projects/Repository/WeeklyChallenges-1/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj",
+        "projectPath": "/Users/rg/Projects/repos/WeeklyChallenges-1/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj",
         "packagesPath": "/Users/rg/.nuget/packages/",
-        "outputPath": "/Users/rg/Desktop/Projects/Repository/WeeklyChallenges-1/ChallengesWithTestsMark8/obj/",
+        "outputPath": "/Users/rg/Projects/repos/WeeklyChallenges-1/ChallengesWithTestsMark8/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/rg/.config/NuGet/NuGet.Config"
