@@ -89,9 +89,9 @@ namespace ChallengesWithTestsMark8
 
         public void ChangeBusinessNameTo_TrueCoders(Business biz)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
 
-
+            Console.WriteLine("TrueCoders");
 
         }
 
@@ -115,24 +115,96 @@ namespace ChallengesWithTestsMark8
         public bool IsStringANumber(string input)
         {
             //throw new NotImplementedException();
+            if (input == null || input.Length == 0)
+            {
+                return false;
+            }
+            else
+            {
 
-            
-            return double.TryParse(input, out _);
+                return double.TryParse(input, out _);
+            }
         }
 
         public bool MajorityOfElementsInArrayAreNull(object[] objs)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+
+            double isNullVal = 0;
+            double isNotNullVal = 0;
+            int countNull = 0;
+
+            foreach (var i in objs)
+                if (i == null)
+                {
+                    isNullVal += 1;
+
+                }
+            else
+                {
+                    isNotNullVal += 1;
+                }
+
+            return (isNullVal > isNotNullVal);
         }
 
         public double AverageEvens(int[] numbers)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+
+            if (numbers == null || numbers.Length == 0)
+            {
+                return 0;
+            }
+            else
+            {
+                double evenResult = 0;
+                int countEven = 0;
+                int oddResult = 0;
+
+
+                foreach (int i in numbers)
+
+                    if (i % 2 == 0)
+                    {
+                        evenResult += i;
+                        countEven += 1;
+                    }
+                    else
+                    {
+                        oddResult += i;
+                    }
+
+                //foreach (int i in numbers)
+                //    if (i % 2 != 0)
+                //    {
+                //        oddResult -= i;
+                //    }
+
+
+                return evenResult / countEven;
+            }
         }
 
         public int Factorial(int number)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            if (number == 0)
+            {
+                return 1;
+            }
+            else
+            {
+
+                int valFact = 1;
+                while (number != 1)
+                {
+                    valFact = valFact * number;
+                    number = number - 1;
+                }
+
+                return valFact;
+            }
         }
     }
 }
