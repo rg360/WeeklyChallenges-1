@@ -97,8 +97,14 @@ namespace ChallengesWithTestsMark8
         public decimal Divide(decimal dividend, decimal divisor)
         {
             //throw new NotImplementedException();
-
-            return dividend / divisor;
+            if (divisor == 0)
+            {
+                return 0;
+            }
+            else
+            {
+                return dividend / divisor;
+            }
         }
 
         public int LastMinusFirst(int[] nums)
@@ -116,8 +122,15 @@ namespace ChallengesWithTestsMark8
         {
 
             //not started!!! 
-            throw new NotImplementedException();
-
+            //throw new NotImplementedException();
+            int[] arr = new int[100];
+            int x = 0;
+            for (int i = 0; i < arr.Length; i ++)
+            {
+                arr[i] = x;
+                x += 3;
+            }
+            return arr;
 
         }
 
