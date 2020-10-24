@@ -8,6 +8,10 @@ namespace ChallengesWithTestsMark8
         public int GetNextNumberDivisibleByN(int startNumber, int n)
         {
             throw new NotImplementedException();
+
+            //not clear! 
+
+
         }
 
         public void ChangeNamesOfBusinessesWithNoRevenueTo_CLOSED(Business[] businesses)
@@ -40,12 +44,67 @@ namespace ChallengesWithTestsMark8
 
         public int SumElementsThatFollowAnEven(int[] numbers)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+
+            if (numbers == null)
+            {
+                return 0;
+
+            }
+            else
+            {
+
+                int sum = 0;
+
+                for (int i = 1; i < numbers.Length; i++)
+                {
+                    if (numbers[i - 1] % 2 == 0)
+                    {
+                        try
+                        {
+                            sum += numbers[i];
+                        }
+                        catch (Exception ex)
+                        {
+                            throw ex;
+                        }
+                    
+                    }
+
+                }
+                return sum;
+            }
+            
         }
 
         public string TurnWordsIntoSentence(string[] words)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            var counter = 0;
+            var newString = "";
+            if (words == null)
+            {
+                return newString;
+            }
+            for (int i = 0; i < words.Length; i++)
+            {
+                counter++;
+                if (words[i] == " " || words[i] == "" || words[i] == "  ")
+                {
+                    continue;
+                }
+                if (counter < words.Length)
+                {
+                    words[i] = words[i].Trim();
+                    newString = newString + words[i] + " ";
+                }
+                if (counter == words.Length)
+                {
+                    words[i] = words[i].Trim();
+                    newString += words[i] + ".";
+                }
+            }
+            return newString;
 
         }
 
