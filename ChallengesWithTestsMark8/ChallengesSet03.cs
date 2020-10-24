@@ -123,14 +123,26 @@ namespace ChallengesWithTestsMark8
 
             //not started!!! 
             //throw new NotImplementedException();
-            int[] arr = new int[100];
-            int x = 0;
-            for (int i = 0; i < arr.Length; i ++)
+
+            //attempt 1
+            //int[] arr = new int[100];
+            //int x = 0;
+            //for (int i = 0; i < arr.Length; i ++)
+            //{
+            //    arr[i] = x;
+            //    x += 3;
+            //}
+            //return arr;
+
+            //attempt 2
+            int[] oddsBelow100 = new int[50];
+            int x = 1;
+            for (int i = 0; i < oddsBelow100.Length; i++)
             {
-                arr[i] = x;
-                x += 3;
+                oddsBelow100[i] = x;
+                x += 2;
             }
-            return arr;
+            return oddsBelow100;
 
         }
 
