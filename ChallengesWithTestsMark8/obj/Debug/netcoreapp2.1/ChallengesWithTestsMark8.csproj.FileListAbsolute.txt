@@ -34,3 +34,15 @@
 /Users/rg/Desktop/Projects/Repository/WeeklyChallenges-1/ChallengesWithTestsMark8/bin/Debug/netcoreapp2.1/ChallengesWithTestsMark8.dll
 /Users/rg/Desktop/Projects/Repository/WeeklyChallenges-1/ChallengesWithTestsMark8/bin/Debug/netcoreapp2.1/ChallengesWithTestsMark8.pdb
 /Users/rg/Desktop/Projects/Repository/WeeklyChallenges-1/ChallengesWithTestsMark8/obj/Debug/netcoreapp2.1/ChallengesWithTestsMark8.genruntimeconfig.cache
+/Users/rg/Projects/repos/WeeklyChallenges-1/ChallengesWithTestsMark8/obj/Debug/netcoreapp2.1/ChallengesWithTestsMark8.csprojAssemblyReference.cache
+/Users/rg/Projects/repos/WeeklyChallenges-1/ChallengesWithTestsMark8/obj/Debug/netcoreapp2.1/ChallengesWithTestsMark8.AssemblyInfoInputs.cache
+/Users/rg/Projects/repos/WeeklyChallenges-1/ChallengesWithTestsMark8/obj/Debug/netcoreapp2.1/ChallengesWithTestsMark8.AssemblyInfo.cs
+/Users/rg/Projects/repos/WeeklyChallenges-1/ChallengesWithTestsMark8/obj/Debug/netcoreapp2.1/ChallengesWithTestsMark8.csproj.CoreCompileInputs.cache
+/Users/rg/Projects/repos/WeeklyChallenges-1/ChallengesWithTestsMark8/obj/Debug/netcoreapp2.1/ChallengesWithTestsMark8.dll
+/Users/rg/Projects/repos/WeeklyChallenges-1/ChallengesWithTestsMark8/obj/Debug/netcoreapp2.1/ChallengesWithTestsMark8.pdb
+/Users/rg/Projects/repos/WeeklyChallenges-1/ChallengesWithTestsMark8/bin/Debug/netcoreapp2.1/ChallengesWithTestsMark8.deps.json
+/Users/rg/Projects/repos/WeeklyChallenges-1/ChallengesWithTestsMark8/bin/Debug/netcoreapp2.1/ChallengesWithTestsMark8.runtimeconfig.json
+/Users/rg/Projects/repos/WeeklyChallenges-1/ChallengesWithTestsMark8/bin/Debug/netcoreapp2.1/ChallengesWithTestsMark8.runtimeconfig.dev.json
+/Users/rg/Projects/repos/WeeklyChallenges-1/ChallengesWithTestsMark8/bin/Debug/netcoreapp2.1/ChallengesWithTestsMark8.dll
+/Users/rg/Projects/repos/WeeklyChallenges-1/ChallengesWithTestsMark8/bin/Debug/netcoreapp2.1/ChallengesWithTestsMark8.pdb
+/Users/rg/Projects/repos/WeeklyChallenges-1/ChallengesWithTestsMark8/obj/Debug/netcoreapp2.1/ChallengesWithTestsMark8.genruntimeconfig.cache

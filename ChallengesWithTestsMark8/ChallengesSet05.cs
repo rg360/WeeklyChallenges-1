@@ -16,8 +16,17 @@ namespace ChallengesWithTestsMark8
 
         public void ChangeNamesOfBusinessesWithNoRevenueTo_CLOSED(Business[] businesses)
         {
-            throw new NotImplementedException();
-        }
+            //throw new NotImplementedException();
+
+            for (int i = 0; i < businesses.Length; i++)
+            {
+                if (businesses[i].TotalRevenue == 0)
+                {
+                    businesses[i].Name = "CLOSED";
+                }
+            }
+
+            }
 
         public bool IsAscendingOrder(int[] numbers)
         {
