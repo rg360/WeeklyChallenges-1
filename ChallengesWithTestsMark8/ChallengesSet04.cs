@@ -123,7 +123,7 @@ namespace ChallengesWithTestsMark8
             else
             {
 
-                return double.TryParse(input, out _);
+                return double.TryParse(input, out var value);
             }
         }
 
