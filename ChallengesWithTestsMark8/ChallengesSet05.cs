@@ -38,16 +38,15 @@ namespace ChallengesWithTestsMark8
             else
             {
 
-                int xEnding = numbers.Length - 1;
-
-                if (xEnding < 1) return true;
+                for (int i = 1; i < numbers.Length; i++)
                 {
-                    int aScend = numbers[0], i = 1;
-
-                    while (i <= xEnding && aScend <= (aScend = numbers[i])) i++;
-
-                    return i > xEnding;
+                    if (numbers[i] < numbers[i - 1])
+                    {
+                        return false;
+                    }
                 }
+
+                return true;
             }
         }
 

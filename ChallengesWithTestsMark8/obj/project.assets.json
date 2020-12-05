@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/rg/Projects/repos/WeeklyChallenges-1/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj",
+      "projectUniqueName": "/Users/rg/Desktop/Projects/Repository/WeeklyChallenges-1/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj",
       "projectName": "ChallengesWithTestsMark8",
-      "projectPath": "/Users/rg/Projects/repos/WeeklyChallenges-1/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj",
+      "projectPath": "/Users/rg/Desktop/Projects/Repository/WeeklyChallenges-1/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj",
       "packagesPath": "/Users/rg/.nuget/packages/",
-      "outputPath": "/Users/rg/Projects/repos/WeeklyChallenges-1/ChallengesWithTestsMark8/obj/",
+      "outputPath": "/Users/rg/Desktop/Projects/Repository/WeeklyChallenges-1/ChallengesWithTestsMark8/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/rg/.config/NuGet/NuGet.Config"
@@ -711,6 +711,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
           "projectReferences": {}
         }
       },
@@ -722,6 +723,7 @@
     },
     "frameworks": {
       "netcoreapp2.1": {
+        "targetAlias": "netcoreapp2.1",
         "dependencies": {
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
@@ -740,7 +742,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }
